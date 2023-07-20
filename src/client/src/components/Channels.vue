@@ -2,8 +2,8 @@
   <div class="col-2 d-flex flex-column p-2 channels" :class="{ hide: navbar.channels }">
     <div class="d-flex flex-column">
       <div class="d-flex flex-row justify-content-between mx-1 mb-4 m-2 w-90">
-        <h5 class="fw-bold mt-auto mr-2">Channel List</h5>
-        <button data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
+        <h5 class="fw-bold mt-auto mr-2">AreaBeyond rooms</h5>
+        <button data-bs-toggle="modal" data-bs-target="#newRoomModal">+</button>
       </div>
 
       <a

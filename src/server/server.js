@@ -37,7 +37,7 @@ fastify.get('/', { websocket: true }, (connection, req) => {
 
 const start = async () => {
   try {
-    const PORT = process.env.PORT || 8080;
+    const PORT = process.env.PORT || 5000;
     await fastify.listen(PORT);
 
     console.log(`Server running at http://localhost:${PORT}`);

@@ -2,7 +2,7 @@
   <div class="navbar text-light w-100 d-flex justify-content-between">
     <img v-if="isUserValid" class="menu" :src="menu" alt="menu" @click="toggleChannels" />
     <a href="/">
-      <h2 class="m-0">Chatify</h2>
+      <h2 class="m-0">ChatifyBeyond</h2>
     </a>
     <img v-if="isUserValid" class="users" :src="users" alt="users" @click="toggleUsers" />
   </div>
